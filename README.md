@@ -1,59 +1,38 @@
+# Bash Guard
 
-# Bash Log Analyzer
-
-## `log_analyzer.sh`
-
----
-
-# O que esse projeto ensina
-
-* Manipulação de logs
-* Automação Linux
-* `grep`
-* `tail`
-* `wc`
-* `if`
-* Variáveis Bash
-* Relatórios automáticos
-* Administração Linux
-* Fundamentos de cybersecurity
+Advanced Linux monitoring and log analysis tool built with Bash Script.
 
 ---
 
-# Ideias para melhorar
+# Features
 
-## Adicionar cores ANSI
-
-```bash
-echo -e "\e[31mERRO DETECTADO\e[0m"
-```
-
----
-
-## Detectar ataques SSH
-
-Pesquisar:
-
-```bash
-grep "Failed password"
-```
+- Interactive TUI interface
+- ANSI colored terminal dashboard
+- SSH brute force detection
+- Suspicious IP detection
+- Real-time log monitoring
+- RAM usage alerts
+- Active services monitoring
+- Open ports scanner
+- Active connections viewer
+- Top memory consuming processes
+- Automatic report generation
+- Internal logging system
+- ASCII banner interface
 
 ---
 
-## Gerar logs em pasta própria
+# Technologies
 
-```bash
-logs/report_$(date +%F).txt
-```
-
----
-
-## Mostrar top processos
-
-```bash
-ps aux --sort=-%mem | head
-```
-
+- Bash Script
+- Linux System Tools
+- grep
+- awk
+- ss
+- systemctl
+- ps
+- tail
+- free
+- df
 
 ---
-
