@@ -29,7 +29,7 @@ banner() {
     echo "██████╔╝██║  ██║███████║██║  ██║"
     echo "╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝"
     echo ""
-    echo "        LOG ANALYZER PRO"
+    echo "        LOG ANALYZER"
     echo -e "${NC}"
 }
 
